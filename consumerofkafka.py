@@ -10,7 +10,7 @@
 #for msg in consumer:
 #    print msg
 
-
+#kafka消费者
 from pykafka import KafkaClient
 client = KafkaClient(hosts="192.168.12.181:9092")
 topic = client.topics['mytopictest']
