@@ -1,3 +1,6 @@
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
+
 import time
 from kafka import SimpleProducer, KafkaClient
 
