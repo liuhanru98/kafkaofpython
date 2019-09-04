@@ -1,6 +1,7 @@
 import time
 from kafka import SimpleProducer, KafkaClient
 
+#kafka生产者
 #  connect to Kafka
 kafka = KafkaClient('192.168.12.181:9092')
 producer = SimpleProducer(kafka)
